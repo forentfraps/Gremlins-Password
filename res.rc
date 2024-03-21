@@ -1,0 +1,14 @@
+#include "resource.h"
+#include <Windows.h>
+
+ID_INPUTDIALOG DIALOG DISCARDABLE  950, 540, 200, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Number"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please enter a number:", -1, 10, 10, 180, 8
+    EDITTEXT        ID_EDIT, 10, 25, 180, 20, ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",ID_OK,65,70,50,14
+    PUSHBUTTON      "Cancel",ID_CANCEL,115,70,50,14
+    
+END
