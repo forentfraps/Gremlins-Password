@@ -1,3 +1,5 @@
+Everything presented here comes with no warranty and AS-IS and is created purely for educational purposes.
+
 ## Building
 To compile yourself you need ```windres``` and ```gcc``` from mingw or something.
 
